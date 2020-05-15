@@ -1,4 +1,4 @@
-# Marko
+# Marko ![Marko](https://github.com/AngeloGiacco/Marko/blob/master/public/logo192.png)
 
 A fast & beautiful markdown notetaker built using React, Firebase, & SWR. Synchronises over devices
 
