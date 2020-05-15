@@ -1,7 +1,8 @@
 {
-  "name": "typemd",
+  "name": "marko",
   "version": "0.1.0",
   "private": true,
+  "homepage": "http://AngeloGiacco.github.io/Marko",
   "dependencies": {
     "@reach/router": "^1.3.3",
     "firebase": "^7.14.3",
