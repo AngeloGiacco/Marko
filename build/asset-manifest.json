@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/Marko/static/css/main.1eb7e059.chunk.css",
+    "main.js": "/Marko/static/js/main.8650df10.chunk.js",
+    "main.js.map": "/Marko/static/js/main.8650df10.chunk.js.map",
+    "runtime-main.js": "/Marko/static/js/runtime-main.76659cc7.js",
+    "runtime-main.js.map": "/Marko/static/js/runtime-main.76659cc7.js.map",
+    "static/css/2.3a221eca.chunk.css": "/Marko/static/css/2.3a221eca.chunk.css",
+    "static/js/2.61c0f5a8.chunk.js": "/Marko/static/js/2.61c0f5a8.chunk.js",
+    "static/js/2.61c0f5a8.chunk.js.map": "/Marko/static/js/2.61c0f5a8.chunk.js.map",
+    "index.html": "/Marko/index.html",
+    "precache-manifest.ae5330992ac3211c6569d5d3aa8f74bb.js": "/Marko/precache-manifest.ae5330992ac3211c6569d5d3aa8f74bb.js",
+    "service-worker.js": "/Marko/service-worker.js",
+    "static/css/2.3a221eca.chunk.css.map": "/Marko/static/css/2.3a221eca.chunk.css.map",
+    "static/css/main.1eb7e059.chunk.css.map": "/Marko/static/css/main.1eb7e059.chunk.css.map",
+    "static/js/2.61c0f5a8.chunk.js.LICENSE.txt": "/Marko/static/js/2.61c0f5a8.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/Marko/static/media/HKGrotesk-SemiBoldItalic.3ecc2801.otf"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.76659cc7.js",
+    "static/css/2.3a221eca.chunk.css",
+    "static/js/2.61c0f5a8.chunk.js",
+    "static/css/main.1eb7e059.chunk.css",
+    "static/js/main.8650df10.chunk.js"
+  ]
+}
