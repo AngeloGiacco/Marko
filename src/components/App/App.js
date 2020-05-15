@@ -1,5 +1,5 @@
 import React from "react";
-import { Router, navigate } from "@reach/router";
+import { Router } from "@reach/router";
 
 import withFirebaseAuth from "react-with-firebase-auth";
 import { firebaseAppAuth, providers } from "lib/firebase";
@@ -13,30 +13,30 @@ const createComponentWithAuth = withFirebaseAuth({
 });
 
 const App = ({ signInWithGoogle, signOut, user }) => {
-  console.log(user);
   return (
     <>
-      <header>
+      <header className="header">
         <h2>Marko</h2>
         {user && (
-          <div>
+          <div className="user-profile">
             <a
+              className="log-out-link"
               href="#log-out"
               onClick={() => {
+                console.log("Signed out...");
                 signOut();
-                navigate("/");
               }}
             >
               Log Out
             </a>
-            <img alt="Profile" src={user.photoURL} />
+            <img alt="Profile" className="avatar" src={user.photoURL} />
           </div>
         )}
       </header>
       <Router>
         <SignIn path="/" user={user} signIns={{ signInWithGoogle }} />
-        <Dashboard path="user/:userId" />
-        <Editor path="user/:userId/editor/:fileId" />
+        <Dashboard path="user/:userId" user={user} />
+        <Editor path="user/:userId/editor/:fileId" user={user} />
       </Router>
     </>
   );
