@@ -1,6 +1,6 @@
-# TypeMD
+# Marko
 
-A fast & beautiful markdown editor built using React, Firebase, & SWR. I speak more about how it was made in [this blog post](https://kartikn.me/writing/react-firebase-swr).
+A fast & beautiful markdown notetaker built using React, Firebase, & SWR. Synchronises over devices
 
 ## Running locally:
 
@@ -76,3 +76,4 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/tr
 ## Acknowledgement
 
 This was made following a tutorial by Kartik Nair: https://github.com/kartiknair
+[Tutorial](https://kartikn.me/writing/react-firebase-swr).
